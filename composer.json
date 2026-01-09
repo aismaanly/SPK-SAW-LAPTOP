@@ -1,0 +1,17 @@
+{
+    "name": "asus/spk-saw-laptop",
+    "autoload": {
+        "psr-4": {
+            "Asus\\SpkSawLaptop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "salzyaa",
+            "email": "salsabilaazzputri26@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    }
+}
