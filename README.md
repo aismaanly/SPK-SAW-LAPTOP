@@ -73,7 +73,6 @@ Sistem mengombinasikan dua metode SPK untuk menghasilkan rekomendasi yang **kons
 
 ---
 
-
 ## ✨ Fitur Utama
 
 * 🔐 Autentikasi & Manajemen User
@@ -95,6 +94,49 @@ Sistem mengombinasikan dua metode SPK untuk menghasilkan rekomendasi yang **kons
 
 ---
 
+## 🚀 Instalasi & Konfigurasi
+
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi secara lokal:
+
+1. **Clone Repository**
+
+   ```bash
+   git clone https://github.com/aismaanly/SPK-SAW-LAPTOP.git
+   ```
+
+2. **Pindahkan ke Direktori Server**
+   Letakkan folder project ke dalam direktori web server:
+
+   * `htdocs/` (XAMPP)
+   * `www/` (Laragon)
+
+3. **Konfigurasi Database**
+
+   * Buat database baru (misal: `spk_laptop`)
+   * Import file SQL yang tersedia pada folder `src/spk_laptop.sql`
+   * Sesuaikan konfigurasi database pada file:
+
+     ```
+     application/config/database.php
+     ```
+
+4. **Jalankan Aplikasi**
+
+   * Pastikan Apache dan MySQL sudah berjalan
+   * Akses aplikasi melalui browser:
+
+     ```
+     http://localhost/SPK-SAW-LAPTOP
+     ```
+
+5. **Login ke Sistem**
+
+   * Gunakan akun default yang tersedia di database
+      * Username: admin
+      * Password: admin   
+
+---
+
 ## 🎯 Tujuan Pengembangan
 
 * Membantu pengambilan keputusan pemilihan laptop secara objektif
@@ -108,4 +150,3 @@ Sistem mengombinasikan dua metode SPK untuk menghasilkan rekomendasi yang **kons
 ![login](src/login.png)
 ![konsistensi](src/konsistensi.png)
 ![hasil](src/hasil.png)
-
